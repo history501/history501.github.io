@@ -408,6 +408,14 @@ export default new Vuex.Store({
         ],
         comments:[]
       },
+      {
+          id: 31,
+          title: 'Железнодорожная станция Чирча',
+          mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUNnNvmtD" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+          description: '',
+          images:[],
+          comments:[]
+        },
 	  {
         id: 32,
         title: 'Столб телефонно-телеграфной линии',

@@ -17,7 +17,9 @@
         </v-btn>
       </template>
       <v-card v-if="this.object">
-        <v-card-title>
+        <v-card-title style="word-break: break-word;">
+          {{object.id}}
+          &nbsp;
           {{object.title}}
           <v-spacer></v-spacer>
           <v-icon @click="dialog = false;$router.push({ path: '/' })">mdi-close</v-icon>
