@@ -884,10 +884,10 @@ export default new Vuex.Store({
         ],
         comments:[]
       },
-	  {
+	    {
         id: 68,
         title: 'Столб телефонно-телеграфной линии',
-		mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUNjWEtCB" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+		    mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CCUNjWEtCB" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
         description: '',
         images:[
           {
@@ -895,6 +895,14 @@ export default new Vuex.Store({
             source: ''
           },
         ],
+        comments:[]
+      },
+	    {
+        id: '93-0',
+        title: 'Лагерь у разъезда Щучий',
+		    mapUrl: '<iframe src="https://yandex.ru/map-widget/v1/-/CTuVvQn1" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>',
+        description: '',
+        images:[],
         comments:[]
       },
     ]
