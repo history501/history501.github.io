@@ -1,0 +1,344 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 5rem;
+  margin-bottom: 55px; /*pour laisser la place au footer*/
+  font-family: Verdana; 
+  margin:0
+}
+
+
+/*
+html {
+  position: relative;
+  height: 100%;
+  padding-top: 55px;
+  padding-bottom: 55px; *//*pour laisser la place au footer*//*
+}
+
+body {
+  position: relative;
+  height: 100%;
+  font-family: Verdana, sans-serif;
+  overflow: auto;
+}
+*/
+
+.footer {
+  /*position: relative;
+  top: 515px; NE PAS TOUCHER!
+  right: 0px; */
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 47px; /* hauteur du footer, correspond à l'espace laissé par le body et par #map1 */
+}
+
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.footer > .container {
+  padding-left: 41.5px;
+}
+
+#map1 {
+  position: absolute;
+  top: 55px;
+  left: 0; 
+  bottom: 0px;/*55px; on a enlevé le footer de la carte, que sur la homepage */
+  /*height: 100%;82%; */
+  width: 100%;
+}
+
+/*.leaflet-control-zoom.leaflet-bar.leaflet-control{
+  margin-top: 80px;
+}*/
+
+/*.leaflet-control-attribution.leaflet-control {
+  bottom: 55px;
+} */
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*Used to limit sizes of popups*/
+.leaflet-popup-content {
+  max-width: 800px;
+  max-height: 800px;
+  /*overflow-y: scroll;
+  overflow-x: scroll;*/
+}
+
+.popups-picture {
+  float: right;    
+  margin: 15px 0 15px 15px;
+}
+
+.sidetitle {
+  margin-top: 25px;
+  padding: 0.5rem 1rem;
+  color: #cfd8dc !important;
+}
+
+#sidebar {
+  position: fixed;
+  top: 55px;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  text-align: left;
+  background: #343a40;
+}
+
+#sidebar ul{
+  margin-left: 5px;
+  padding: 0;
+}
+
+#sidebar ul li {
+  color: #ffffff;
+  list-style: None;
+  /*padding: 15px 10px;*/
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3)
+}
+
+.container {
+  margin-left: 200px; /* same as the width of the sidebar */
+}
+
+
+.textwebpage {
+  font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+  text-justify: inter-word;
+  margin-left: 34%;
+  margin-right: 20%;
+  font-size: 1.25em;
+}
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+#modal_content{
+  position: fixed;
+  top:50px;
+}
+
+/* To center images multiple */
+.images{
+  text-align:center;
+}
+
+/*Pour texte à côté de l'image*/
+/*{
+  box-sizing: border-box;
+}*/
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 30px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;}
+
+.left {
+  float: left;
+}
+
+.hr_dotted{
+  border-top:1px dotted #D3D3D3;
+  color: #D3D3D3; 
+  /*Rest of stuff here*/
+}
+
+
+
+
+/*
+.img {
+  float: left;
+  margin-top: 5px;
+}
+
+.img1 {
+  float: right;
+  margin-left: 30px;
+  margin-top: 30px;
+  }
+  
+.img2 {
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.img3 {
+  float: right;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.center {
+  text-align: center;
+}
+
+.img-haut {
+  vertical-align: text;
+}
+
+.text-left {
+  text-align: end;
+}
+
+.img-bassines {
+    float: right;
+    margin-left: 30px;
+}
+
+.cloison {
+  float: left;
+  margin-right: 5px;
+}
+
+.img-poele {
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px
+}
+
+.poel-gauche {
+  float: left;
+  margin-right: 25px;
+}
+
+.figcaptation {
+  text-align: center;
+  caption-side: top;
+}
+
+.mirador1 {
+  float: left;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+
+.toit-mirador {
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 100px;
+  }
+
+  .text-right {
+    text-align: right;
+    text-justify: auto;
+  }
+
+  .float-right {
+    float: right;
+    margin-left: 10px;
+  }
+
+*/
+
+
+
+.popups-text {
+  padding-right: 10px;
+  text-align: justify;
+}
+.plan-b1 {
+  float:left
+}
+
+.webpage-collab{
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.collab-div{
+  vertical-align: middle;
+  display: table;
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.collab-text{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.collab-photo{
+  padding: 0px;
+  width:200px;
+  position: relative;
+  float: left ;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.gloss-anchor {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+.text-left {
+  text-align : left
+}
+
+@font-face {
+  font-family: molot;
+  src: url("/source/fonts/Molot.otf") format("opentype");
+}
+
+#button-wrapper {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+h1.page-title{
+  font-family: molot;
+}
+
+h2.page-title{
+  font-family: molot;
+}
+
+h3.page-title{
+  font-family: molot;
+}
+
+h5.page-title{
+  font-family: molot;
+}

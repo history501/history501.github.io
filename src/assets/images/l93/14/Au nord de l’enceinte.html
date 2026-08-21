@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://yamal.ch/source/html/bats_nord.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.0.1">
+  <title>Au nord de l’enceinte</title>
+
+  <!-- lien "canonique", renvoie à la base du template, faudra qu'on change/enlève pour que ça corresponde au site qu'on veut -->
+  <!--<link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">-->
+
+  <!-- Fichier CSS Leaflet -->
+  <link rel="stylesheet" href="./Au nord de l’enceinte_files/leaflet.css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="./Au nord de l’enceinte_files/bootstrap.css" rel="stylesheet">
+
+  <!-- Fichier CSS pour ce fichier -->
+  <link href="./Au nord de l’enceinte_files/basic_style.css" rel="stylesheet">
+
+  <!-- CSS for slideshow -->
+  <link href="./Au nord de l’enceinte_files/slideshow.css" rel="stylesheet">
+
+  <!-- For font awesome -->
+  <link rel="stylesheet" href="./Au nord de l’enceinte_files/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!--NAVBAR-->
+  <!--NAVBAR-->
+<div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top mb-0" style="font-family: Calibri, sans-serif ;">
+    <!--<nav> à la place de div-->
+    <a class="navbar-brand" href="https://yamal.ch/index.html"><i class="fas fa-home"></i></a>
+    <!--<a class="navbar-brand" href="Projet501.html"><b>CARTE INTERACTIVE</b></a>
+    <a class="navbar-brand" href="projet2019-2020.php">PROJET</a>
+    <a class="navbar-brand" href="chantier_501-503.php">CONTEXTE</a>
+    <a class="navbar-brand" href="introduction.php"><b>CAMP/VOIE</b></a>
+    <a class="navbar-brand" href="glossaire.php">GLOSSAIRE</a>
+    <a class="navbar-brand" href="collaborateurs.php">TEAM</a>
+    <a class="navbar-brand" href="liens.php">RESSOURCES</a>-->
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://yamal.ch/Projet501.html"><b>CARTE INTERACTIVE</b></a>
+        </li>
+        <li class="nav-item active">
+          <a style="visibility:collapse; ">iii</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://yamal.ch/source/html/projet2019-2020.php">PROJET</a>
+        </li>
+        <li class="nav-item active">
+          <a style="visibility:collapse; ">iii</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://yamal.ch/source/html/chantier_501-503.php">CONTEXTE</a>
+        </li>
+        <li class="nav-item active">
+          <a style="visibility:collapse; ">iii</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://yamal.ch/source/html/introduction.php"><b>CAMP/VOIE</b></a>
+        </li>
+        <li class="nav-item active">
+          <a style="visibility:collapse; ">iii</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://yamal.ch/source/html/glossaire.php">GLOSSAIRE</a>
+        </li>
+        <li class="nav-item active">
+          <a style="visibility:collapse; ">iii</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://yamal.ch/source/html/collaborateurs.php">TEAM</a>
+        </li>
+        <li class="nav-item active">
+          <a style="visibility:collapse; ">iii</a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">RESSOURCES</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown02">
+            <a class="dropdown-item" href="https://yamal.ch/source/html/liens.php">Liens</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!--NAVBAR-->
+<!-- vieille nabar
+
+<div class="navbar navbar-expand-md navbar-dark bg-dark fixed-top mb-0">
+    <a class="navbar-brand " href="../../Projet501.html">Carte interactive</a>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a style="visibility:collapse; ">iiiiiiiiiiiiiiiiiiiiiiiiiiii</a> --><!-- ceci est un moyen foireux pour faire de l'espace --><!--
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="introduction.php">Menu</a>
+            </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">À propos</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown02">
+                    <a class="dropdown-item" href="collaborateurs.php">Participant.e.s</a>
+                    <a class="dropdown-item" href="#">Contact</a>
+                    <a class="dropdown-item" href="liens.php">Liens</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+-->
+  <!-- SIDEBAR -->
+  <!--SIDEBAR-->
+
+<div id="sidebar">
+  <ul>
+    <li><br></li>
+    <!--
+    <li>
+      <a class="nav-link" href="introduction.php" style="color: white;">
+        Introduction
+      </a>
+    </li>
+  -->
+
+    <li>
+      <!--<a class="nav-link dropdown-toggle" id="dropdown03" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">CONTEXTE</a>
+      <div class="dropdown-menu" aria-labelledby="dropdown03">
+        <a class="dropdown-item" href="chantier_501-503.php">Les chantiers 501-503</a>
+        <a class="dropdown-item" href="introduction.php">Le camp 93</a>
+        <a class="dropdown-item" href="projet2019-2020.php">Le projet 2019-2020</a>
+    </li>-->
+
+    </li><li class="sidetitle">
+      LE CAMP
+    </li>
+
+    <li>
+      <a class="nav-link dropdown-toggle" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">L'enceinte</a>
+      <div class="dropdown-menu" aria-labelledby="dropdown03">
+        <a class="dropdown-item" href="https://yamal.ch/source/html/enceinte_portail.php">Enceinte et portail</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/B1.php">Poste de contrôle</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/miradors.php">Miradors</a>
+    </div></li>
+
+    <li>
+      <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dans l'enceinte</a>
+      <div class="dropdown-menu" aria-labelledby="dropdown02">
+        <a class="dropdown-item" href="https://yamal.ch/source/html/allee.php">Allée centrale</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/B2.php">Cantine</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/B3.php">Isolateur disciplinaire</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/B458.php">Baraques</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/B6.php">Cuisine</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/B14.php">Réfectoire (?)</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/B9.php">Latrines</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/B7.php">Bât. admin. ouest (?)</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/B8.php">Bât. admin. est (?)</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/B13.php">Fondations</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/sport.php">Terrain de sport</a>
+
+      </div>
+    </li>
+
+    <li>
+      <a class="nav-link dropdown-toggle" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hors de l'enceinte</a>
+      <div class="dropdown-menu" aria-labelledby="dropdown03">
+        <a class="dropdown-item" href="https://yamal.ch/source/html/B10.php">Entrepôt-atelier</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/bats_nord.php">Bâtiments au nord de la zone</a>
+    </div></li>
+
+    <li>
+      <a class="nav-link dropdown-toggle" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thèmes</a>
+      <div class="dropdown-menu" aria-labelledby="dropdown05">
+        <a class="dropdown-item" href="https://yamal.ch/source/html/techniques_de_contruction.php">Techniques de construction</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/chauffage.php">Chauffage</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/eau.php">Gestion de l'eau</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/tentes.php">Les tentes</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/evasion.php">Evasions</a>
+      </div>
+    </li>
+
+    <li class="sidetitle">
+      LA VOIE FERRÉE
+    </li>
+
+    <li>
+      <a class="nav-link dropdown-toggle" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ouvrages</a>
+      <div class="dropdown-menu" aria-labelledby="dropdown05">
+        <a class="dropdown-item" href="https://yamal.ch/source/html/rails.php">Voie</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/ponts.php">Ponts</a>
+      </div>
+    </li>
+
+    <li>
+      <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Constructions</a>
+      <div class="dropdown-menu" aria-labelledby="dropdown02">
+        <a class="dropdown-item" href="https://yamal.ch/source/html/bat_croisement.php">Bâtiment d’exploitation</a>
+        <a class="dropdown-item" href="https://yamal.ch/source/html/poste_aiguilleur.php">Le poste de l'aiguilleur</a>
+      </div>
+    </li><br>
+    <!--
+    <li>
+      <a class="nav-link" href="glossaire.php" style="color: white;">Glossaire</a>
+    </li> -->
+  </ul>
+</div>
+  <!--PAGE CONTENT-->
+  <main role="main" class="textwebpage">
+    <h1 class="page-title">Au nord de l’enceinte</h1><br>
+
+    <div id="vestiges">
+    <hr>
+    <h3 style="color:#0000CD;">Vestiges</h3>
+    <br>
+
+    <figure style="float:right; padding:0px; margin-left:50px">
+      <img src="./Au nord de l’enceinte_files/camp_aerophoto_1967.jpeg" style="width: 350px">
+      <figcaption style="text-align:center;">Photo aérienne de la zone en 1967</figcaption>
+    </figure>
+
+    <p style="text-align:justify">
+      À une centaine de mètres au nord du camp 93, un ensemble de bâtiments est destiné aux autorités du camp, aux gardes, aux responsables de la construction de la voie ferrée et aux travailleurs libre, probablement une cinquantaine de personnes en tout. L’endroit n’ayant pas été étudié en détail durant l’été 2019, la fonction d’une majorité des édifices n’est pas établie avec certitude.
+    </p>
+
+    <p style="text-align:justify">
+      De l’extérieur, on reconnaît plusieurs baraques semblables à celles dans lesquelles logeaient les détenus ; à l’intérieur, cependant, elles étaient pourvues de petites chambres offrant davantage d’intimité que les larges dortoirs du camp. A égale distance des deux plus grandes baraques se trouvent les latrines communes.
+    </p>
+
+    <p style="text-align:justify">
+      Les gardes et les travailleurs libres disposaient certainement de leur propre cuisine, associée à un réfectoire, et éventuellement d’une <i>bania</i>. Ils devaient aussi avoir une <a href="https://yamal.ch/source/html/B2.php" target="">cantine</a> (<i>lariok</i>) où ils pouvaient faire quelques achats, si l’on en croit le <a href="https://yamal.ch/source/html/B7.php#temoignages" target="">témoignage</a> d’I. D. Marmanov : ce dernier suggère en effet qu’il existait plus d’un <i>lariok</i> à Chtchoutchi. On ne sait cependant pas où se trouvaient ces différents locaux si importants pour la vie des travailleurs libres.
+    </p>
+
+    <p style="text-align:justify">
+      D’autres bâtiments complètent cet ensemble : à l’ouest, une écurie prévue pour une dizaine de chevaux ; au centre un probable entrepôt ; à l’est une construction légère, abritant peut-être la génératrice produisant l’électricité pour toute la zone, ainsi qu’un bâtiment possiblement lié à l’exploitation de la voie ferrée.
+    </p>
+
+    <p style="text-align:justify">
+      Une photo aérienne datant de 1967 montre en outre que deux allées se croisant à angle droit permettaient de circuler entre les bâtiments.
+    </p>
+
+    <!-------------------------------------------- SLIDESHOW ------------------------------------------------>
+    <br>
+    <hr>
+    <br>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides" style="display: none;">
+        <div class="numbertext">1 / 11</div>
+        <img src="./Au nord de l’enceinte_files/Plan_batiments_nords.png" class="slideshow-center" style="height:400px">
+        <div class="text-v">Plan des bâtiments au nord de l’enceinte</div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <div class="numbertext">2 / 11</div>
+        <img src="./Au nord de l’enceinte_files/Shuchy_drone_1586_NEW.JPG" class="slideshow-center" style="height:400px">
+        <div class="text-v">Photo drone des bâtiments au nord de l’enceinte, juin 2019</div>
+      </div>
+
+      <div class="mySlides" style="display: block;">
+        <div class="numbertext">3 / 11</div>
+        <img src="./Au nord de l’enceinte_files/Shuchy_drone_1598_NEW.JPG" class="slideshow-center" style="height:400px">
+        <div class="text-v">Photo drone, juin 2019 : baraque, écurie et bâtiment non identifié </div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <div class="numbertext">4 / 11</div>
+        <img src="./Au nord de l’enceinte_files/Shuchy_drone_1626_NEW.JPG" class="slideshow-center" style="height:400px">
+        <div class="text-v">Baraque est : façade est avec sas d’entrée (sur le toit, deux plaques de tôle percées pour le passage de tuyaux de poêle</div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <div class="numbertext">5 / 11</div>
+        <img src="./Au nord de l’enceinte_files/Shuchy_JA_0343_NEW.JPG" class="slideshow-center" style="width:570px">
+        <div class="text-v">Même façade, fenêtres et cadre de fenêtre</div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <div class="numbertext">6 / 11</div>
+        <img src="./Au nord de l’enceinte_files/Shuchy_drone_1634_NEW.JPG" class="slideshow-center" style="height:400px">
+        <div class="text-v">Baraque est : façade ouest et sas d’entrée sud </div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <div class="numbertext">7 / 11</div>
+        <img src="./Au nord de l’enceinte_files/Shuchy_JA_0281_NEW.JPG" class="slideshow-center" style="width:570px">
+        <div class="text-v">Même façade : au premier plan, fenêtre avec vitrage partiellement conservé et éléments de décoration en bois </div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <div class="numbertext">8 / 11</div>
+        <img src="./Au nord de l’enceinte_files/baraque_est_49.jpg" class="slideshow-center" style="height:400px">
+        <div class="text-v">Baraque est : couloir central </div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <div class="numbertext">9 / 11</div>
+        <img src="./Au nord de l’enceinte_files/bat-indet_57.jpg" class="slideshow-center" style="width:570px">
+        <div class="text-v">Bâtiment de fonction indéterminée : façade nord </div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <div class="numbertext">10 / 11</div>
+        <img src="./Au nord de l’enceinte_files/ecurie_56.jpg" class="slideshow-center" style="width:570px">
+        <div class="text-v">L’écurie de Chtchoutchi, vue de l’intérieur</div>
+      </div>
+
+      <div class="mySlides" style="display: none;">
+        <div class="numbertext">11 / 11</div>
+        <img src="./Au nord de l’enceinte_files/IMG_2118.jpg" class="slideshow-center" style="width:570px">
+        <div class="text-v">Intérieur d’une écurie, dans un autre camp le long de la voie 501, avec la mangeoire encore bien conservée</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot isActive" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+      <span class="dot" onclick="currentSlide(9)"></span>
+      <span class="dot" onclick="currentSlide(10)"></span>
+      <span class="dot" onclick="currentSlide(11)"></span>
+    </div>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" isActive", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " isActive";
+      }
+    </script>
+
+<br><br><br>
+
+  </div></main>
+
+  <!-- FOR DROPDOWN MENUS (?)-->
+  <script src="./Au nord de l’enceinte_files/jquery-3.5.1.slim.min.js.Без названия" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="source/plugins/assets/js/vendor/jquery.slim.min.js"><\/script>')
+  </script>
+  <script src="./Au nord de l’enceinte_files/bootstrap.bundle.js.Без названия"></script>
+
+
+
+</body></html>

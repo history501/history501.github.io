@@ -1,13 +1,22 @@
 <template>
   <v-app>
     <v-main>
-      <div class="mainWrap">
+      <router-view v-if="$route.path.startsWith('/l93')"/>
+      <div v-else class="mainWrap">
         <div class="titleWrap" :class="{'titleWrapSmall': $vuetify.breakpoint.xs}">
           <a href="/"><img src="./assets/logoS.png" alt="Logo" class="mainLogo"></a>
           <h1 class="mainTitle">501-я в объективе</h1>
 
           <app-project-description style="display: inline;margin: 0 2px;"></app-project-description>
           <app-project-map style="display: inline;margin: 0 2px;"></app-project-map>
+          <v-btn
+            to="/l93"
+            style="background-color: #6c757d;border: 1px solid #6c757d;"
+            dark
+            class="mainWrapBtn"
+          >
+            Лагерь 93
+          </v-btn>
           <router-view style="display: inline;"/>
           <hr style="margin-top:20px;">
           <p class="signature">&copy; 2022 <a href="https://t.me/history_501" target="_blank">Сообщество "501-я в объективе"</a></p>
@@ -43,7 +52,6 @@ export default {
     }
   html, body{
     height:100%;
-    overflow: hidden !important;
     width: 100%;
   }
 
@@ -53,6 +61,7 @@ export default {
     background-size: cover;
     /*display: flex;*/
     height:100%;
+    overflow: hidden;
     padding: 12px;
     width:100%;
   }
